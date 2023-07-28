@@ -1,0 +1,152 @@
+/*CSS styles go here */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: green;
+    padding: 1rem;
+    border-bottom: 2px solid green;
+}
+
+
+
+.searchbar{
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding:   4px;
+  
+}
+
+
+
+
+
+
+.searchbar-btn {
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+     border: 1px solid rgba(12, 232, 12, 0) ; 
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #fff;
+    padding: 0.5rem;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: center;
+    color: green;
+    
+}
+
+
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: green
+}
+
+
+h3{
+    color: green
+}
+
+
+
+
+
+.main-paragraphs {
+    background-color: #8890db;
+}
+
+#div2 {
+    display: flex;
+
+}
+
+#inside-div1 {
+    width: 50%;
+
+}
+
+#inside-div2 {
+
+    width: 50%;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+#diveasyfoto {
+    display: flex;
+}
+
+
+.icons li a {
+    color: #fff;
+    list-style: none;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    
+    list-style: none;
+}
+
+.icons li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.icons li a img{
+  height: 24px;
+}
+
+
+#footer-paragraph {
+    color: #fff;
+}
